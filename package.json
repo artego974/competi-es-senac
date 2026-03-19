@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "npx tsc src/models/server.ts"
+    "dev": "npx tsc src/server.ts && node server.js"
   },
   "dependencies": {
     "@types/cors": "^2.8.19",

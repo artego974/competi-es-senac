@@ -13,9 +13,9 @@ export class User{
 
     @Column({type: "varchar", length:255, nullable: false })
     name: string
-    
-    @Column({type: "varchar", length: 255, unique: true, nullable: false})
-    cpf:string
+
+    @Column({type: "varchar", length: 11, unique: true, nullable: false})
+    cpf:number
 
     @Column({type: "varchar", length: 255, unique: true, nullable: false })
     email:string
@@ -24,10 +24,11 @@ export class User{
     senha:string
 
 
-    constructor(name:string, email: string, senha:string){
-        name: this.name
-        email: this.email
-        senha: this.senha
+    constructor(name:string,cpf:number, email: string, senha:string){
+        this.name = name
+        this.cpf = cpf
+        this.email = email
+        this.senha = senha
     }
 
         

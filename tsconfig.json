@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
+    "target": "ES2020",
     "module": "commonjs",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
 
   },
-  "include": ["src/models/*.ts"],
+  "include": ["src/**/*.ts"],
   "exclude": [""]
 }
