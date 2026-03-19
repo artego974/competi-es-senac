@@ -2,11 +2,11 @@
 
 ## Front-End
 
-As ferramntas ultilizadas para o projeto serão html css e javascript vanilla 
+As ferramntas ultilizadas para o projeto serão html e css 
 
 ## Back-End 
 
-As ferramentas ultilizadas para o projeto serão node express typeorm 
+As ferramentas ultilizadas para o projeto serão node express typeorm e para banco de dados foi ultilizado sql workbeanch
 
 ## Banco de Dados
 
