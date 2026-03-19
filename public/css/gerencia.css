@@ -12,3 +12,8 @@ main div{
     border-radius: 15px;
     border: 2px solid #333;
 }
+
+main div:hover{
+    scale: 1.05;
+    background-color: gray;
+}
