@@ -1,5 +1,10 @@
-{   
-    
-    "include": [],
-    "exclude": []
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+  "experimentalDecorators": true,
+
+  },
+  "include": ["src/models/*.ts"],
+  "exclude": [""]
 }
