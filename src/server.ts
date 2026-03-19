@@ -1,9 +1,11 @@
+import express from 'express';
 import {AppDataSource} from "./config/db-config"
-import {express} from "express"
 import "reflect-metadata"
 
-const app = express()
+const app = express();
 const port = 3000
+
+app.use(express.json());
 
 try{
 AppDataSource.initialize()
