@@ -19,3 +19,7 @@ A logica do DER foi feita na ferramenta canva e mostra as 5 tabelas principais
 1 técnico pode pode ter varios ordem e 1 ordem pode ter 1 técnico
 
 1 equipamento pode ter 1 ordem e 1 ordem pode ter varios equipamentos
+
+### Abaixo o link
+
+https://www.canva.com/design/DAHEah9xLx8/T5j5g5BZjAstwKRm_6Mxmg/edit?utm_content=DAHEah9xLx8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
